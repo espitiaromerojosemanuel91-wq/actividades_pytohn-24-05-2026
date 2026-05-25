@@ -329,3 +329,16 @@ modificar_aprendiz(
 
 print(aprendices_ficha_3321349)
 
+
+# Función normal corregida
+def mi_funcion_normal(a):  # Se usa una variable 'a' como parámetro, no un número
+    resultado = a + 10     # Mantiene la indentación obligatoria
+    return resultado 
+
+# Llamadas y verificación
+print(mi_funcion_normal(5))  # Imprime 15
+
+# Función lambda (Correcta original)
+x = lambda a : a + 10
+print(x(5))                  # Imprime 15
+
